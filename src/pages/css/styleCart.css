@@ -1,0 +1,350 @@
+@media only screen and (max-width: 767px) {
+    .table-tablet, .table-pc {
+        display: none;
+    }
+
+    thead {
+        border-bottom: solid 2px #c89979;
+    }
+
+    .product-cart {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .product-cart > h1 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #c89979;
+        font-weight: 700;
+        border-bottom: solid 2px #c89979;
+    }
+
+    .table-mobile {
+        width: 85%;
+    }
+
+    .table-mobile th {
+        font-size: 0.65rem;
+        padding: 0;
+    }
+
+    .payment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        padding: 20px 0;
+    }
+    
+    .payment > h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 15px 0;
+        width: 100%;
+        text-align: end;
+        
+    }
+    
+    .discount-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: solid 1px gainsboro;
+        padding: 10px 10px;
+    }
+    
+    .discount-container > button {
+        border: solid 1px gainsboro;
+        height: 40px;
+    }
+    
+    .discount-container > button:hover {
+        background-color: #c2c2c2;
+        color: #fff;
+    }
+    
+    .discount-container > input {
+        border-radius: 5px;
+        height: 40px;
+        margin: 15px 0;
+        outline: none;
+    }
+    
+    .discount-code {
+        display: flex;
+    }
+    
+    .discount-code > h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    .ic-tag {
+        color: #a2a1a1;
+        font-size: 1.6rem;
+        margin-right: 10px;
+    }
+    
+    .btn-payment {
+        height: 40px;
+        width: 100%;
+        background-color: #057a55;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+    
+    .cart-none-notification {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        width: 100%;
+    }
+    
+    .cart-none-notification > h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #c89979;
+        width: 85%;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .table-mobile, .table-pc {
+        display: none;
+    }
+
+    thead {
+        border-bottom: solid 2px #c89979;
+    }
+
+    .product-cart {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product-cart > h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #c89979;
+        font-weight: 700;
+        border-bottom: solid 2px #c89979;
+    }
+
+    .table-tablet {
+        width: 85%;
+    }
+
+    .table-tablet th {
+        font-size: 0.85rem;
+        padding: 0;
+    }
+
+    .payment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        padding: 20px 0;
+    }
+    
+    .payment > h3 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 15px 0;
+        width: 100%;
+        text-align: end;
+        
+    }
+    
+    .discount-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: solid 1px gainsboro;
+        padding: 10px 10px;
+    }
+    
+    .discount-container > button {
+        border: solid 1px gainsboro;
+        height: 40px;
+    }
+    
+    .discount-container > button:hover {
+        background-color: #c2c2c2;
+        color: #fff;
+    }
+    
+    .discount-container > input {
+        border-radius: 5px;
+        height: 40px;
+        margin: 15px 0;
+        outline: none;
+    }
+    
+    .discount-code {
+        display: flex;
+    }
+    
+    .discount-code > h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    .ic-tag {
+        color: #a2a1a1;
+        font-size: 1.6rem;
+        margin-right: 10px;
+    }
+    
+    .btn-payment {
+        height: 40px;
+        width: 100%;
+        background-color: #057a55;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+    
+    .cart-none-notification {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        width: 100%;
+    }
+    
+    .cart-none-notification > h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #c89979;
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .table-mobile, .table-tablet {
+        display: none;
+    }
+
+    .product-cart {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .product-cart > h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #c89979;
+        font-weight: 700;
+        border-bottom: solid 2px #c89979;
+    }
+
+    .table-pc {
+        width: 85%;
+    }
+
+    .table-pc th {
+        padding: 0;
+    }
+    
+    thead {
+        border-bottom: solid 2px #c89979;
+    }
+    
+    .payment {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 85%;
+        padding: 20px 0;
+    }
+    
+    .payment > h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 15px 0;
+        width: 100%;
+        text-align: end;
+        
+    }
+    
+    .discount-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        border: solid 1px gainsboro;
+        padding: 10px 10px;
+    }
+    
+    .discount-container > button {
+        border: solid 1px gainsboro;
+        height: 40px;
+    }
+    
+    .discount-container > button:hover {
+        background-color: #c2c2c2;
+        color: #fff;
+    }
+    
+    .discount-container > input {
+        border-radius: 5px;
+        height: 40px;
+        margin: 15px 0;
+        outline: none;
+    }
+    
+    .discount-code {
+        display: flex;
+    }
+    
+    .discount-code > h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    .ic-tag {
+        color: #a2a1a1;
+        font-size: 1.6rem;
+        margin-right: 10px;
+    }
+    
+    .btn-payment {
+        height: 40px;
+        width: 100%;
+        background-color: #057a55;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+    
+    .cart-none-notification {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+    }
+    
+    .cart-none-notification > h2 {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #c89979;
+    }
+      
+}

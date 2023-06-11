@@ -1,0 +1,68 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 85%;
+}
+
+.close-modal {
+    display: flex;
+    justify-content: flex-end;
+    color: #828282;
+    margin: 10px 10px 0 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal > form {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-1 {
+    width: 48%;
+}
+
+.info-2 {
+    width: 48%;
+}
+
+.modal h3 {
+    margin-top: 10px;
+}
+
+.modal input, .modal textarea, .modal select {
+    background-color: gainsboro;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+.modal textarea {
+    height: 260px;
+}
+
+.add-product {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-add-product {
+    background-color: green;
+    color: #fff;
+    height: 40px;
+    width: 25%;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+}
+
+

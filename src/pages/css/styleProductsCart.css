@@ -1,0 +1,183 @@
+@media only screen and (max-width: 767px) {
+    .body-tablet, .body-pc {
+        display: none;
+    }
+
+    .body-mobile > tr {
+        border-bottom: solid 1px #dcdcdc;
+    }
+
+    .body-mobile td {
+        padding: 10px 0;
+    }
+
+    .body-mobile tr {
+        border-top: solid 1px #dcdcdc;
+        border-bottom: solid 1px #dcdcdc;
+    }
+
+    .body-mobile > tr > td > img {
+        width: 100px;
+    }
+
+    .quantity {
+        display: flex;
+    }
+
+    .remove, .add {
+        cursor: pointer;
+        margin: 0 5px;
+        font-size: 1.1rem;
+    }
+    
+    .ic-delete {
+        font-size: 1.1rem;
+        border-radius: 5px;
+        color: #ff3939;
+        cursor: pointer;
+        border: solid 1px #fff;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .body-mobile, .body-pc {
+        display: none;
+    }
+
+    .body-tablet tr {
+        border: solid 1px #dcdcdc;
+    }
+
+    .body-tablet td {
+        padding: 10px 0;
+    }
+
+    .body-tablet > tr > td > img {
+        width: 100px;
+    }
+
+    .body-tablet > tr > td > .name {
+        width: 140px;
+    }
+
+    .body-pc > tr > .td-avatar {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-name {
+        width: 270px;
+    }
+
+    .body-pc > tr > td > .avatar, .body-pc > tr > td > .name, .body-pc > tr > td > .price-cart,
+    .body-pc > tr > td > .quantity, .body-pc > tr > td > .total, .body-pc > tr > td > .total, 
+    .body-pc > tr > td > .delete {
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .body-pc > tr > .td-price-cart {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-quantity {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-total {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-delete {
+        width: 20px;
+    }
+
+    td h3 {
+        font-size: 0.85rem;
+    }
+
+    .quantity {
+        display: flex;
+    }
+    
+    .remove, .add {
+        cursor: pointer;
+        margin: 0 5px;
+        font-size: 1.1rem;
+    }
+    
+    .ic-delete {
+        font-size: 1.5rem;
+        border-radius: 5px;
+        color: #ff3939;
+        cursor: pointer;
+        border: solid 1px #fff;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .body-mobile, .body-tablet {
+        display: none;
+    }
+
+    .body-pc > tr {
+        border-bottom: solid 1px #dcdcdc;
+    }
+
+    .body-pc td {
+        padding: 10px 0;
+    }
+
+    .body-pc > tr > .td-avatar {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-name {
+        width: 270px;
+    }
+
+    .body-pc > tr > td > .avatar, .body-pc > tr > td > .name, .body-pc > tr > td > .price-cart,
+    .body-pc > tr > td > .quantity, .body-pc > tr > td > .total, .body-pc > tr > td > .total, 
+    .body-pc > tr > td > .delete {
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .body-pc > tr > .td-price-cart {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-quantity {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-total {
+        width: 100px;
+    }
+
+    .body-pc > tr > .td-delete {
+        width: 20px;
+    }
+
+    td h3 {
+        font-size: 1rem;
+    }
+
+    .quantity {
+        display: flex;
+    }
+    
+    .remove, .add {
+        cursor: pointer;
+        margin: 0 5px;
+        font-size: 1.1rem;
+    }
+    
+    .ic-delete {
+        font-size: 2rem;
+        border-radius: 5px;
+        color: #ff3939;
+        cursor: pointer;
+        border: solid 1px #fff;
+    }
+}

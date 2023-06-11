@@ -1,0 +1,326 @@
+.product-details-container > h1 {
+    font-size: 1.5rem;
+    margin-top: 100px;
+    border-bottom: solid 2px #c89979;
+    font-weight: 700;
+    color: #c89979;
+    margin-bottom: 20px;
+    width: 85%;
+    text-align: center;
+}
+
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.product-details-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    width: 85%;
+}
+
+.img-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.img-details img {
+    /* height: 25%; */
+    width: 30%;
+}
+
+.desc-price-container {
+    width: 85%;
+    border-top: solid 1px #c89979;
+    padding-top: 10px;
+}
+
+.desc-price-container > h2{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.desc-price-container > h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.desc-price-container > h4 {
+    font-weight: 500;
+    color: #ff6767;
+}
+
+.addToCart {
+    margin: 15px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+}
+
+.btn-addTocart {
+    background-color: #c89979;
+    height: 60%;
+    width: 30%;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    position: relative;
+    text-align: center;
+}
+
+.shopping-cart {
+    display: flex;
+    align-items: center;
+}
+
+.shopping-detailproduct {
+    display: flex;
+    position: absolute;
+}
+
+
+.ic-shopping {
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.description_2 {
+    width: 85%;
+}
+
+.description_2 > h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.evaluate-container {
+    border: solid 2px #c89979;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.evaluate-container * {
+    margin-top: 5px;
+}
+
+.evaluate {
+    border: solid 2px gainsboro;
+    width: 90%;
+    padding: 0 30px 20px 30px;
+    margin: 20px 0;
+}
+
+.evaluate-container > h2 {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: groove 1px #c89979;
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.evaluate > textarea {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+}
+
+.ic-star {
+    display: flex;
+    color: #afafaf;
+    cursor: pointer;
+}
+
+.evaluate-account > input{
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-send {
+    background-color: #c89979;
+    border-radius: 5px;
+    height: 40px;
+    width: 30%;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.product-details-tablet-pc {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .product-details-mobile {
+        display: none;
+    }
+
+    .product-details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .product-details-container > h1 {
+        font-size: 2rem;
+        margin-top: 100px;
+        border-bottom: solid 2px #c89979;
+        font-weight: 700;
+        color: #c89979;
+        width: 85%;
+        text-align: center;
+    }
+    
+    .product-details-tablet-pc {
+        margin-top: 50px;
+        display: flex;
+        width: 85%;
+        justify-content: space-between;
+    }
+    
+    .img-container {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+    
+    .img-container > img {
+        margin-bottom: 20px;
+        border: solid 2px gainsboro;
+    }
+    
+    
+    .img-details {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .img-details img {
+        height: 100%;
+        width: 32%;
+        border: solid 1px gainsboro;
+    }
+    
+    .desc-price-container {
+        width: 50%;
+    }
+    
+    .desc-price-container > h2{
+        font-size: 1.4rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    
+    .desc-price-container > h3 {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    .desc-price-container > h4 {
+        font-size: 1.2rem;
+        color: #ff6767;
+        font-weight: 500;
+    }
+    
+    .btn-addTocart {
+        background-color: #c89979;
+        height: 45px;
+        width: 150px;
+        border-radius: 5px;
+        color: #fff;
+        margin-top: 20px;
+        text-align: end;
+        padding-right: 20px;
+    }   
+    
+    .description_2 {
+        width: 85%;
+        margin: 30px 0;
+    }
+
+    .description_2 > h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    .description_2 > p {
+        font-size: 1.05rem;
+    }
+    
+    .evaluate-container {
+        border: solid 2px #c89979;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+    }
+    
+    .evaluate-container * {
+        margin-top: 5px;
+    }
+    
+    .evaluate {
+        border: solid 2px gainsboro;
+        width: 90%;
+        padding: 0 30px 20px 30px;
+        margin: 20px 0;
+    }
+    
+    .evaluate-container > h2 {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border: groove 1px #c89979;
+        width: 20%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .evaluate > textarea {
+        height: 100px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+    }
+    
+    .ic-star {
+        display: flex;
+        color: #afafaf;
+        cursor: pointer;
+    }
+    
+    .evaluate-account > input{
+        height: 35px;
+        width: 35%;
+        border-radius: 5px;
+    }
+    
+    .btn-send {
+        background-color: #c89979;
+        border-radius: 5px;
+        height: 40px;
+        width: 17%;
+        color: #fff;
+        margin-top: 20px;
+    }
+}

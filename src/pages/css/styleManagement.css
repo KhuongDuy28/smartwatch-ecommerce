@@ -1,0 +1,41 @@
+.management {
+    height: 100vh;
+    width: 15%;
+    color: #fff;
+    background: linear-gradient(to bottom right, #4568DC, #B06AB3);
+}
+
+.admin-management {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.management h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid 2px #c89979;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.management h2 {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.ic {
+    font-size: 2rem;
+}
+
+.admin-management:hover {
+    background-color: #c89979;
+}
+
+
+
+
+

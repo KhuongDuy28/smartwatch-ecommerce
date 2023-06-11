@@ -1,0 +1,89 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../public/Xiaomi-Mi-Watch-1572964092-0-0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.form-login {
+    width: 30%;
+    padding: 15px;
+    border: solid 2px #c89979;
+    border-radius: 10px;
+    margin-top: 100px;
+    /* background-color: #353535;
+    opacity: 0.7; */
+}
+
+.form-login > h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.form-login p {
+    color: #fd3b3b;
+}
+
+.form-login input {
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 20px;
+    outline: none;
+    opacity: 0.7;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+}
+
+.pass > input {
+    position: relative;
+}
+
+.eye {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ic-eye {
+    position: absolute;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #8a8a8a;
+}
+
+.login-user {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.btn-login-user {
+    height: 45px;
+    width: 100%;
+    background-color: #c89979;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.register-formlogin {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.register-formlogin h3 {
+    color: #fff;
+    font-size: 1.05rem;
+}

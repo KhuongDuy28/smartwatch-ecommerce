@@ -1,0 +1,249 @@
+@media only screen and (max-width: 1023px) {
+    .payment-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    .payment-info-user {
+        width: 85%;
+        border-top: solid 2px #c89979;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .payment-info-user > h2, .order-info-user > h2 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    
+    .payment-info-user  h3, .order-info-user h3 {
+        font-size: 1.05rem;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    
+    .payment-info-user  input, .payment-info-user  textarea {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+        margin-top: 5px;
+    }
+    
+    .payment-info-user  textarea {
+        height: 150px;
+    }
+    
+    .payment-info-user p {
+        color: red;
+    }
+    
+    .order-info-user {
+        height: 15%;
+        width: 85%;
+        border: solid 2px #c89979;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+
+    .order-details > .name {
+        width: 69%;
+    }
+    
+    .order-details > .quantity {
+        width: 6%;
+    }
+    
+    .order-details > .total {
+        width: 23%;
+    }
+    
+    .choose-payment-pc {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .btn-order {
+        height: 40px;
+        width: 30%;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 15px;
+        background-color: #c89979;
+        font-size: 0.8rem;
+    }
+    .choose-payment-pc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .payment-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    .payment-info-user {
+        width: 85%;
+        border-top: solid 2px #c89979;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .payment-info-user > h2, .order-info-user > h2 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    
+    .payment-info-user  h3, .order-info-user h3 {
+        font-size: 1.05rem;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    
+    .payment-info-user  input, .payment-info-user  textarea {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+        margin-top: 5px;
+    }
+    
+    .payment-info-user  textarea {
+        height: 150px;
+    }
+    
+    .payment-info-user p {
+        color: red;
+    }
+    
+    .order-info-user {
+        height: 15%;
+        width: 85%;
+        border: solid 2px #c89979;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .order-details {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .order-details > .name {
+        width: 69%;
+    }
+    
+    .order-details > .quantity {
+        width: 6%;
+    }
+    
+    .order-details > .total {
+        width: 23%;
+    }
+    
+    .choose-payment-pc {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .btn-order {
+        height: 40px;
+        width: 20%;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 15px;
+        background-color: #c89979;
+    }
+    .choose-payment-pc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .payment-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    
+    .payment-info-user {
+        width: 30%;
+        border-top: solid 2px #c89979;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        margin-right: 20px;
+    }
+    
+    .payment-info-user > h2, .order-info-user > h2 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    
+    .payment-info-user  h3, .order-info-user h3 {
+        font-size: 1.05rem;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    
+    .payment-info-user  input, .payment-info-user  textarea {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+        margin-top: 5px;
+    }
+    
+    .payment-info-user  textarea {
+        height: 150px;
+    }
+    
+    .payment-info-user p {
+        color: red;
+    }
+    
+    .order-info-user {
+        height: 15%;
+        width: 52%;
+        border: solid 2px #c89979;
+        padding: 20px;
+        margin-left: 20px;
+    }
+    
+    .order-details {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .order-details > .name {
+        width: 60%;
+    }
+    
+    .order-details > .quantity {
+        width: 5%;
+    }
+    
+    .order-details > .total {
+        width: 28%;
+    }
+    
+    .btn-order {
+        height: 40px;
+        width: 20%;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 15px;
+        background-color: #c89979;
+    }
+
+    .choose-payment-tablet {
+        display: none;
+    }
+}
